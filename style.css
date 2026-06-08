@@ -10,12 +10,11 @@
 
 }
 
-body{
+body {
     background-color: black;
-        font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 300;
     line-height: 1.6;
-
 }
 
 /* NAV ------------------------ */
@@ -35,6 +34,17 @@ nav {
     border-bottom: 1px solid #2c2c2c;
 }
 
+#navItemInicio {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+#navItemInicio span {
+    color: red;
+}
+
 nav ul {
     gap: 2rem;
     display: flex;
@@ -44,15 +54,38 @@ nav ul {
 nav a {
     text-decoration: none;
     color: rgb(149, 148, 148);
-        transition: color 0.2s;
+    transition: color 0.2s;
+    font-size: 0.85rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
 }
-nav a:hover{
+
+nav a:hover {
     color: rgb(87, 87, 87);
 }
 
 /* INICIO ----------------------------------- */
 
+#inicio {
+    background-color: red;
+    min-height: 100vh;
+    padding: 7rem 0 0 0;
+    display: flex;
+}
 
+#inicioContent {
+    background-color: green;
+    width: 60%;
+}
+
+#inicioImage {
+    background-color: blue;
+    width: 40%;
+}
+
+img {
+    width: 110px;
+}
 
 
 /* SOBRE ------------------------------- */
