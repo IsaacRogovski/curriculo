@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corFundo: ;
+    --CorFundoNav: #000000ca;
+
+}
+
+body{
+    background-color: black;
+        font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+
+}
+
+/* NAV ------------------------ */
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: var(--CorFundoNav);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3rem;
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid #2c2c2c;
+}
+
+nav ul {
+    gap: 2rem;
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(149, 148, 148);
+        transition: color 0.2s;
+}
+nav a:hover{
+    color: rgb(87, 87, 87);
+}
+
+/* INICIO ----------------------------------- */
+
+
+
+
+/* SOBRE ------------------------------- */
