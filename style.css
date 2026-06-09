@@ -101,6 +101,26 @@ nav a:hover {
     max-width: 25rem;
 }
 
+#inicioContent input[type="button"] {
+    background-color: var(--corVermelho);
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 1rem 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    min-width: 25rem;
+    max-width: 25rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#inicioContent input[type="button"]:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+    background-color: rgb(129, 11, 11);
+}
+
 .nomePrincipal {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 7.5rem;
@@ -221,8 +241,21 @@ nav a:hover {
 
 /* footer --------------------------- */
 
-  footer {
+footer {
     padding: 0.7rem;
     display: flex;
     justify-content: center;
+}
+
+
+
+/* responsividade (teste ainda) ------------------- */
+
+
+@media (max-width: 768px) {
+    #inicio {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
