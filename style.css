@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      scroll-behavior: smooth;
 }
 
 :root {
@@ -121,6 +122,19 @@ nav a:hover {
 #sobre{
     background-color: var(--conFundoConstraste);
     height: 100vh;
+    padding: 10rem;
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#sobre h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+
+}
+#sobre p{
+    color: var(--corTextos);
 }
