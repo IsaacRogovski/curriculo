@@ -7,7 +7,8 @@
 :root {
     --corFundoNav: #000000ca;
     --corTextos: #959494;
-    --corFundoBody:#040404;
+    --corFundoBody: #000000f0;
+    --corVermelho: #e01e1e;
 }
 
 body {
@@ -42,7 +43,7 @@ nav {
 }
 
 #navItemInicio span {
-    color: red;
+    color: var(--corVermelho);
 }
 
 nav ul {
@@ -73,24 +74,27 @@ nav a:hover {
 }
 
 #inicioContent {
-    background-color: green;
     display: flex;
     flex-direction: column;
-margin-top: 100px;
-
+    padding: 5rem;
     width: 50%;
     color: var(--corTextos);
 }
 
-#nomePrincipal{
+.nomePrincipal {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 4rem;
+    font-size: 8rem;
     color: white;
-        letter-spacing: 0.08rem;
+    letter-spacing: 0.08rem;
     text-transform: uppercase;
 }
-#nomePrincipal span{
-    color: red;
+
+.nomePrincipal:nth-child(2) {
+    margin-top: -6.6rem;
+}
+
+.nomePrincipal span {
+    color: var(--corVermelho);
 }
 
 #inicioImage {
