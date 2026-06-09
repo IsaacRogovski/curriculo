@@ -8,7 +8,9 @@
     --corFundoNav: #000000ca;
     --corTextos: #959494;
     --corFundoBody: #000000f0;
+    --conFundoConstraste: #171717f0; ;
     --corVermelho: #e01e1e;
+    --corBordas: #2c2c2c;
 }
 
 body {
@@ -32,7 +34,7 @@ nav {
     align-items: center;
     padding: 1.2rem 3rem;
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid #2c2c2c;
+    border-bottom: 1px solid var(--corBordas) ;
 }
 
 #navItemInicio {
@@ -76,21 +78,21 @@ nav a:hover {
 #inicioContent {
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 1.5rem 4rem;
     width: 50%;
     color: var(--corTextos);
 }
 
 .nomePrincipal {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 8rem;
+    font-size: 7.5rem;
     color: white;
     letter-spacing: 0.08rem;
     text-transform: uppercase;
 }
 
 .nomePrincipal:nth-child(2) {
-    margin-top: -6.6rem;
+    margin-top: -6rem;
 }
 
 .nomePrincipal span {
@@ -112,3 +114,10 @@ nav a:hover {
 
 
 /* SOBRE ------------------------------- */
+
+#sobre{
+    background-color: var(--conFundoConstraste);
+    height: 100vh;
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+}
