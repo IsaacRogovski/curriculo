@@ -173,16 +173,19 @@ nav a:hover {
     transition: all .2s ease;
     aspect-ratio: 1 / 1;
 }
+
 .card img {
     width: 4rem;
     height: 4rem;
     object-fit: contain;
 }
+
 .card h2 {
     color: white;
     font-size: 1rem;
     font-weight: bold;
 }
+
 .card:hover {
     transform: translateY(-5px);
     border-color: var(--corVermelho);
@@ -195,10 +198,31 @@ nav a:hover {
 #experiencias {
     background-color: var(--conFundoConstraste);
     min-height: 88.2vh;
-    padding: 5rem 10rem;
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
+}
+
+/* formacao ------------------------------- */
+
+#formacao {
+
+    min-height: 88.2vh;
+
+}
+
+/* contato ------------------------------- */
+
+#contato {
+    background-color: var(--conFundoConstraste);
+    min-height: 88.2vh;
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+}
+
+/* footer --------------------------- */
+
+  footer {
+    padding: 0.7rem;
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    justify-content: center;
 }
