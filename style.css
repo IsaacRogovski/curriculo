@@ -22,6 +22,18 @@ body {
     line-height: 1.6;
 }
 
+p {
+    color: var(--corTextos);
+}
+
+h1 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+
+}
+
+
 /* NAV ------------------------ */
 
 nav {
@@ -82,7 +94,6 @@ nav a:hover {
     flex-direction: column;
     padding: 1.5rem 4rem;
     width: 50%;
-    color: var(--corTextos);
 }
 
 #inicioContent p {
@@ -123,8 +134,8 @@ nav a:hover {
 
 #sobre {
     background-color: var(--conFundoConstraste);
-    height: 90vh;
-    padding: 10rem;
+    min-height: 88.2vh;
+    padding: 5rem 10rem;
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
     display: flex;
@@ -132,13 +143,52 @@ nav a:hover {
     gap: 0.5rem;
 }
 
-#sobre h1 {
+/* HABILIDADES ------------------------*/
+
+#habilidades {
+    min-height: 88.2vh;
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--conFundoConstraste);
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.5rem;
+    gap: 1rem;
+
+    transition: all .2s ease;
+}
+.card img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.card h2 {
     color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 5rem;
-
+    font-size: 1rem;
+    font-weight: 500;
 }
+.card:hover {
+    transform: translateY(-5px);
 
-#sobre p {
-    color: var(--corTextos);
+    border-color: var(--corVermelho);
+
+    box-shadow:
+        0 0 15px rgba(224, 30, 30, 0.15);
 }
+/* --------------------- */
