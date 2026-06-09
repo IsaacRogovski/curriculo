@@ -189,4 +189,16 @@ nav a:hover {
     box-shadow:
         0 0 15px rgba(224, 30, 30, 0.15);
 }
-/* --------------------- */
+
+/* experiencia ------------------------------- */
+
+#experiencias {
+    background-color: var(--conFundoConstraste);
+    min-height: 88.2vh;
+    padding: 5rem 10rem;
+    border-top: 1px solid var(--corBordas);
+    border-bottom: 1px solid var(--corBordas);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
