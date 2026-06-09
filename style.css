@@ -93,7 +93,8 @@ nav a:hover {
 #inicioContent {
     display: flex;
     flex-direction: column;
-    padding: 1.5rem 4rem;
+    justify-content: center;
+    align-items: center;
     width: 50%;
 }
 
@@ -280,7 +281,8 @@ nav a:hover {
     height: 4rem;
     object-fit: contain;
 }
-#contato a:hover{
+
+#contato a:hover {
     transform: translateY(-2px);
     border-color: var(--corVermelho);
     box-shadow:
@@ -301,7 +303,7 @@ footer {
 @media (max-width: 1024px) {
 
     #inicio {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         gap: 2rem;
