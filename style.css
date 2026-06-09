@@ -155,12 +155,13 @@ nav a:hover {
 
 #sobre {
     background-color: var(--conFundoConstraste);
-    min-height: 88.2vh;
-    padding: 5rem 10rem;
+    min-height: 60vh;
+    padding: 10rem;
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -171,6 +172,7 @@ nav a:hover {
     padding: 5rem 10rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 0.5rem;
 }
 
