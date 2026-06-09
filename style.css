@@ -120,6 +120,11 @@ nav a:hover {
     box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
     background-color: rgb(129, 11, 11);
 }
+#inicioContent a{
+    height:min-content;
+    width: min-content;
+
+}
 
 .nomePrincipal {
     font-family: 'Bebas Neue', sans-serif;
