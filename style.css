@@ -82,6 +82,9 @@ nav a:hover {
     width: 50%;
     color: var(--corTextos);
 }
+#inicioContent p{
+    max-width: 25rem;
+}
 
 .nomePrincipal {
     font-family: 'Bebas Neue', sans-serif;
