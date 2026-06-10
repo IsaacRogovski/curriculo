@@ -218,8 +218,8 @@ nav a:hover {
 .card:hover {
     transform: translateY(-5px);
     border-color: var(--corVermelho);
-    box-shadow:
-        0 0 15px rgba(224, 30, 30, 0.15);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+    cursor: pointer;
 }
 
 /* experiencia ------------------------------- */
@@ -234,7 +234,7 @@ nav a:hover {
 /* formacao ------------------------------- */
 
 #formacao {
-    min-height: 88.2vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,9 +265,10 @@ nav a:hover {
 }
 
 .cardFormacao img {
-    width: 4rem;
-    height: 4rem;
-    object-fit: contain;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 0.4rem;
+    object-fit:cover;
 }
 
 
