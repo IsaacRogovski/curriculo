@@ -458,7 +458,7 @@ footer {
     }
 
     .nomePrincipal:nth-child(2) {
-        margin-top: -1rem;
+        margin-top: 0rem;
     }
 
     #inicioContent p {
