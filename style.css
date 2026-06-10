@@ -226,9 +226,50 @@ nav a:hover {
 
 #experiencias {
     background-color: var(--corFundoConstraste);
-    min-height: 88.2vh;
     border-top: 1px solid var(--corBordas);
     border-bottom: 1px solid var(--corBordas);
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+#experienciasContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#experienciasContainer .cardExperiencia {
+    background-color: var(--corFundoBody);
+    flex-direction: row;
+    display: flex;
+    border: 1px solid var(--corBordas);
+    border-radius: 8px;
+    padding: 1.5rem;
+    gap: 1rem;
+    transition: all .2s ease;
+
+}
+
+#experiencias h2 {
+    color: white;
+}
+
+#experiencias img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 0.2rem;
+}
+
+#experiencias .cardExperiencia:hover {
+    transform: translateY(-2px);
+    border-color: var(--corVermelho);
+    box-shadow: 0 0 15px rgba(224, 30, 30, 0.15);
+    cursor: pointer;
 }
 
 /* formacao ------------------------------- */
@@ -268,7 +309,7 @@ nav a:hover {
     width: 10rem;
     height: 10rem;
     border-radius: 0.4rem;
-    object-fit:cover;
+    object-fit: cover;
 }
 
 
