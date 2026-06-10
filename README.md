@@ -14,7 +14,7 @@ Este projeto consiste em um **Portifólio** desenvolvido para a divulgação e v
 
   
 
-## Como Executar o Projeto
+## Como Acessar
 
   
 
